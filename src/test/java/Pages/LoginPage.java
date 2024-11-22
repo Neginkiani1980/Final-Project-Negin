@@ -7,19 +7,27 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
-    public LoginPage(){
+    public LoginPage()
+    {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(xpath = "//input[@name='email']")
-    public WebElement emailInput;
+    public WebElement EmailInput;
 
     @FindBy(xpath = "//input[@name='password']")
-    public WebElement passwordInput;
+    public WebElement loginPassword;
 
-    @FindBy(xpath = "//button[text()='Login' and @type='submit']")
+    @FindBy(xpath = "//button[@type='submit']")
     public WebElement loginButton;
 
+    @FindBy(xpath = "//p[@class='mb-3']")
+    public WebElement loginCopyright;
 
+    @FindBy(xpath = "(//a[@href='/admin/dashboard'])[2]")
+    public WebElement dashTab;
+
+    @FindBy(xpath = "(//a[@href='/admin/items'])")
+    public WebElement itemTab;
 
 }

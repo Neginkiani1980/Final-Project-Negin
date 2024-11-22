@@ -1,9 +1,8 @@
 package Stepdefinitions;
 
-import Utilities.ConfigurationReader;
-import Utilities.DBUtils;
-import Utilities.SeleniumUtils;
-import io.cucumber.java.en.And;
+import Utilities.DataReader;
+import Utilities.DatabaseUtils;
+import Utilities.Utils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,11 +15,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CreateCustomerAPI {
-    String baseURL=ConfigurationReader.getPropertyValue("craterURL");
+    String baseURL= DataReader.getPropertyValue("craterURL");
     String token;
     Response response;
-    String name= SeleniumUtils.name();
-    String email = SeleniumUtils.email();
+    String name= Utils.name();
+    String email = Utils.email();
     Map<String,String> requestHeaders=new HashMap<>();
     Map<String,String>  requestBody=new HashMap<>();
     String query="select *from CraterDBS.customers order by created_at desc;";
@@ -35,8 +34,8 @@ public class CreateCustomerAPI {
         requestHeaders.put("company", "1");
 
         Map<String, String> requestBody= new HashMap<>();
-        requestBody.put("username", ConfigurationReader.getPropertyValue("userName"));
-        requestBody.put("password", ConfigurationReader.getPropertyValue("userPassword"));
+        requestBody.put("username", DataReader.getPropertyValue("userName"));
+        requestBody.put("password", DataReader.getPropertyValue("userPassword"));
         requestBody.put("device_name", "mobile_app");
 
 
@@ -81,9 +80,9 @@ public class CreateCustomerAPI {
 //        response.prettyPrint();
         response.then().body("data.name", Matchers.equalTo(name));
         response.then().body("data.email", Matchers.equalTo(email));
-        String actualName= DBUtils.selectRecord(query, "name");
+        String actualName= DatabaseUtils.selectRecord(query, "name");
         Assert.assertEquals(name,actualName);
-        String actualEmail= DBUtils.selectRecord(query, "email");
+        String actualEmail= DatabaseUtils.selectRecord(query, "email");
         Assert.assertEquals(email,actualEmail);
     }
 }

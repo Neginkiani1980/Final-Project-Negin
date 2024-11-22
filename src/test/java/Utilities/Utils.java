@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.Random;
 
-public class SeleniumUtils {
+public class Utils {
     Faker faker;
 
     // Method to send keys using Actions class

@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class ConfigurationReader {
+public class DataReader {
 
     private static Properties configFile;
 

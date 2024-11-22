@@ -23,7 +23,7 @@ public class Driver {
 
     public static WebDriver getDriver() {
         //Read the browser type you want to launch from properties file
-        String browserType = ConfigurationReader.getPropertyValue("browserType");
+        String browserType = DataReader.getPropertyValue("browserType");
 
         if (driver == null) {//if the driver is null, then create the driver
             //Create the driver based on the browser type

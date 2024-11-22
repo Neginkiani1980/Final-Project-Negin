@@ -12,19 +12,19 @@ public class itemsPage {
     }
 
     @FindBy(xpath = "//button[text()=' Add Item']")
-    public WebElement addItemBtn;
+    public WebElement AddItemBtn;
 
     @FindBy(xpath = "//h3[text()='New Item']")
-    public WebElement itemsNewItemLbl;
+    public WebElement ItemsNewItemLabel;
 
     @FindBy(xpath = "(//input[@type='text'])[2]")
-    public WebElement itemsNameInput;
+    public WebElement ItemsNameInput;
 
     @FindBy(xpath = "(//input[@type='text'])[3]")
-    public WebElement itemsUnit;
+    public WebElement ItemsUnit;
 
     @FindBy(xpath = "//input[@type='tel']")
-    public WebElement itemsPrice;
+    public WebElement ItemsPrice;
 
     @FindBy(xpath = "//textarea[@name='description']")
     public WebElement itemsDescription;

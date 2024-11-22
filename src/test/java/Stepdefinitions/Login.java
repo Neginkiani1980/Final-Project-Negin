@@ -69,23 +69,22 @@ public class Login {
     }
     @When("I click on + Add Item,")
     public void i_click_on_add_item() throws InterruptedException {
-        itemsPage.addItemBtn.click();
+        itemsPage.AddItemBtn.click();
         Thread.sleep(1000);
 
     }
     @Then("I enter the details for name, pc, price, description.")
     public void i_enter_the_details_for_name_pc_price_description() throws InterruptedException {
         Assert.assertEquals(BaseURL+"admin/items/create", driver.getCurrentUrl());
-        Assert.assertTrue(itemsPage.itemsNewItemLbl.isDisplayed());
+        Assert.assertTrue(itemsPage.ItemsNewItemLabel.isDisplayed());
         Thread.sleep(2000);
 
-        itemsPage.itemsNameInput.sendKeys(name1);
-        itemsPage.itemsPrice.sendKeys(price1);
+        itemsPage.ItemsNameInput.sendKeys(name1);
+        itemsPage.ItemsPrice.sendKeys(price1);
         itemsPage.itemsDescription.sendKeys(description);
         Thread.sleep(1000);
-        itemsPage.itemsUnit.sendKeys(unit + Keys.ENTER);
+        itemsPage.ItemsUnit.sendKeys(unit + Keys.ENTER);
         itemsPage.itemsSaveBtn.click();
-        Thread.sleep(3000);
         Assert.assertEquals(BaseURL+"admin/items", driver.getCurrentUrl());
         Assert.assertTrue(itemsPage.itemsMessageSuccess.isDisplayed());
         Assert.assertEquals("Success!",itemsPage.itemsMessageSuccess.getText());

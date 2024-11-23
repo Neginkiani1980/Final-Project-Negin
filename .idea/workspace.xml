@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e082ce9-d3fd-48a1-8484-ab4d3644ec16" name="Changes" comment="I updated my pom.xml" />
+    <list default="true" id="1e082ce9-d3fd-48a1-8484-ab4d3644ec16" name="Changes" comment="I added my api package and class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,18 +55,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.APITestRunner.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DryTestRunner.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.CreateCusomerAPItestNG.createCustomer.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/negin/IdeaProjects/Final-Project-Negin/src/test/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.APITestRunner.executor": "Run",
+    "JUnit.DryTestRunner.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CraterApiCustomer.executor": "Run",
+    "TestNG.CreateCusomerAPItestNG.createCustomer.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/negin/IdeaProjects/Final-Project-Negin/src/test/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\negin\IdeaProjects\Final-Project-Negin\src\test\resources" />
@@ -74,7 +75,7 @@
       <recent name="C:\Users\negin\IdeaProjects\Final-Project-Negin\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.APITestRunner">
+  <component name="RunManager" selected="TestNG.CraterApiCustomer">
     <configuration name="APITestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Final-Project-Negin" />
       <extension name="coverage">
@@ -120,6 +121,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CraterApiCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final-Project-Negin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_tests" />
+      <option name="MAIN_CLASS_NAME" value="api_tests.CraterApiCustomer" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateCusomerAPItestNG.createCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final-Project-Negin" />
       <extension name="coverage">
@@ -140,6 +158,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CraterApiCustomer" />
         <item itemvalue="JUnit.APITestRunner" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.DryTestRunner" />
@@ -172,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732390644158</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="I added my api package and class">
+      <option name="closed" value="true" />
+      <created>1732391429793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732391429793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +216,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done" />
     <MESSAGE value="I updated my pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="I updated my pom.xml" />
+    <MESSAGE value="I added my api package and class" />
+    <option name="LAST_COMMIT_MESSAGE" value="I added my api package and class" />
   </component>
 </project>

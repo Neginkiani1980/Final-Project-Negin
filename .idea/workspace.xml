@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e082ce9-d3fd-48a1-8484-ab4d3644ec16" name="Changes" comment="done" />
+    <list default="true" id="1e082ce9-d3fd-48a1-8484-ab4d3644ec16" name="Changes" comment="I updated my pom.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +74,7 @@
       <recent name="C:\Users\negin\IdeaProjects\Final-Project-Negin\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="JUnit.APITestRunner">
     <configuration name="APITestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Final-Project-Negin" />
       <extension name="coverage">
@@ -140,9 +140,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.APITestRunner" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.DryTestRunner" />
-        <item itemvalue="JUnit.APITestRunner" />
         <item itemvalue="TestNG.CreateCusomerAPItestNG.createCustomer" />
       </list>
     </recent_temporary>
@@ -164,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732250480919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I updated my pom.xml">
+      <option name="closed" value="true" />
+      <created>1732390644158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732390644158</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +188,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="I updated my pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="I updated my pom.xml" />
   </component>
 </project>

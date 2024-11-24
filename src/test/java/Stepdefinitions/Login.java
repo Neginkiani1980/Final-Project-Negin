@@ -85,7 +85,7 @@ public class Login {
         Thread.sleep(1000);
         itemsPage.ItemsUnit.sendKeys(unit + Keys.ENTER);
         itemsPage.itemsSaveBtn.click();
-        Assert.assertEquals(BaseURL+"admin/items", driver.getCurrentUrl());
+        Assert.assertEquals("http://crater.primetech-apps.com/admin/items", driver.getCurrentUrl());
         Assert.assertTrue(itemsPage.itemsMessageSuccess.isDisplayed());
         Assert.assertEquals("Success!",itemsPage.itemsMessageSuccess.getText());
         Assert.assertTrue(itemsPage.itemsMessage2.isDisplayed());

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e082ce9-d3fd-48a1-8484-ab4d3644ec16" name="Changes" comment="I added my api package and class" />
+    <list default="true" id="1e082ce9-d3fd-48a1-8484-ab4d3644ec16" name="Changes" comment="I have added new things">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Stepdefinitions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stepdefinitions/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configuration.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +66,9 @@
     "JUnit.TestRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CraterApiCustomer.create_a_customer.executor": "Run",
     "TestNG.CraterApiCustomer.executor": "Run",
+    "TestNG.CraterApiCustomer.loginToCrater.executor": "Run",
     "TestNG.CreateCusomerAPItestNG.createCustomer.executor": "Run",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/negin/IdeaProjects/Final-Project-Negin/src/test/resources"
@@ -75,7 +81,7 @@
       <recent name="C:\Users\negin\IdeaProjects\Final-Project-Negin\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CraterApiCustomer">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="APITestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Final-Project-Negin" />
       <extension name="coverage">
@@ -86,21 +92,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Runners" />
       <option name="MAIN_CLASS_NAME" value="Runners.APITestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DryTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Final-Project-Negin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.DryTestRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,17 +129,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateCusomerAPItestNG.createCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CraterApiCustomer.create_a_customer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final-Project-Negin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API_tests.*" />
+          <option name="PATTERN" value="api_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API_tests" />
-      <option name="MAIN_CLASS_NAME" value="API_tests.CreateCusomerAPItestNG" />
-      <option name="METHOD_NAME" value="createCustomer" />
+      <option name="PACKAGE_NAME" value="api_tests" />
+      <option name="MAIN_CLASS_NAME" value="api_tests.CraterApiCustomer" />
+      <option name="METHOD_NAME" value="create_a_customer" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CraterApiCustomer.loginToCrater" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final-Project-Negin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_tests" />
+      <option name="MAIN_CLASS_NAME" value="api_tests.CraterApiCustomer" />
+      <option name="METHOD_NAME" value="loginToCrater" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="TestNG.CraterApiCustomer.create_a_customer" />
+        <item itemvalue="TestNG.CraterApiCustomer.loginToCrater" />
         <item itemvalue="TestNG.CraterApiCustomer" />
         <item itemvalue="JUnit.APITestRunner" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="JUnit.DryTestRunner" />
-        <item itemvalue="TestNG.CreateCusomerAPItestNG.createCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +208,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732391429793</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I have added new updates">
+      <option name="closed" value="true" />
+      <created>1732391574694</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732391574694</updated>
+    </task>
+    <task id="LOCAL-00005" summary="I have added new things">
+      <option name="closed" value="true" />
+      <created>1732392362374</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732392362374</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +242,20 @@
     <MESSAGE value="done" />
     <MESSAGE value="I updated my pom.xml" />
     <MESSAGE value="I added my api package and class" />
-    <option name="LAST_COMMIT_MESSAGE" value="I added my api package and class" />
+    <MESSAGE value="I have added new updates" />
+    <MESSAGE value="I have added new things" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have added new things" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/Pages/itemsPage.java</url>
+          <line>17</line>
+          <properties field="ItemsNewItemLabel" class="Pages.itemsPage" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
